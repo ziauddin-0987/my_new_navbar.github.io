@@ -48,3 +48,9 @@ var anonSum = function (a, b) {
 };
 console.log(anonSum(5, 3));
 anonSum(1, 3);
+var anonSum = function (a, b) {
+  // anonymous
+  return a + b;
+};
+console.log(anonSum(5, 3));
+anonSum(1, 3);
